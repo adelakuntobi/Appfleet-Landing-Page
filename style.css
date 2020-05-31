@@ -134,6 +134,10 @@ header,main{
 .main2{
   display: flex;
 }
+.main2 img{
+  object-fit: contain;
+  width: 50%;
+}
 .main2 div,.main3 div{
   margin: auto;
 }
@@ -237,7 +241,12 @@ footer div:first-child{
   list-style: none;
 }
 
+@media screen and (max-width: 970px){
+  .displayNone{
+    display: none;
+  }
 
+}
 @media screen and (max-width: 700px){
   body{
     text-align: center;
@@ -265,7 +274,7 @@ footer div:first-child{
     padding: 11% 12%;
   }
 
-  .content1 section{
+  .content1 section,.main2 img{
     width: 100%;
   }
 
