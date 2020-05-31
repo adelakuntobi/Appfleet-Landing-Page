@@ -1,7 +1,23 @@
+html{
+  -webkit-tap-highlight-color: transparent;
+}
 body{
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  color: var(--fourth);
+  line-height: 1.5;
   background-image: radial-gradient(circle 839px at 50% 0,#fff 0,#fafdff 100%);
+}
+p{
+  color: #545a76;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: .18px;
+}
+h3{
+  color: black;
+  font-size: 20px;
+  margin: 17px 0 22px;
 }
 img{
   border-radius: 15px;
@@ -188,6 +204,9 @@ header,main{
 }
 .feature section div{ 
   background-color: inherit;
+  box-shadow: none;
+  padding: 10px;
+  margin-bottom: 0;
 }
 .map img{
   opacity: 0.8;
@@ -195,12 +214,10 @@ header,main{
 }
 
 
-
-
 /*Footer*/
 footer{
   margin: 0 8%;
-  font-weight: 700;
+  font-weight: 400;
 }
 footer ul{
   padding: 0;
@@ -224,6 +241,7 @@ footer div:first-child{
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 50px;
+  font-weight: 600;
 }
 .bottom p {
   margin: auto;
@@ -239,6 +257,9 @@ footer div:first-child{
 }
 .bottom ul li:first-child{
   list-style: none;
+}
+li::marker{
+  color: blue;
 }
 
 @media screen and (max-width: 970px){
@@ -258,10 +279,10 @@ footer div:first-child{
     margin: 10px auto
   }
 
-
-
   .landing,.content1{
     display: block;
+    text-align: left;
+    padding: 0;
   }
 
   .landing .image,.landing .text{
@@ -281,6 +302,9 @@ footer div:first-child{
   /*Main*/
   .main2{
     flex-wrap: wrap;
+  }
+  .main2 p{
+    line-height: 2;
   }
   .main2 div{
     margin: 14%;
