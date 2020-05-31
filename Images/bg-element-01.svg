@@ -1,0 +1,15 @@
+<svg width="1000" height="560" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <radialGradient cx="0%" cy="0%" fx="0%" fy="0%" r="111.741%" gradientTransform="scale(.5 1) rotate(41.168)" id="b">
+      <stop stop-color="#FFF" stop-opacity=".5" offset="0%"/>
+      <stop stop-opacity=".5" offset="100%"/>
+    </radialGradient>
+    <path d="M500 0v500C226.619 500 4.482 280.597.067 8.268L0 0h500zm0 0c273.381 0 495.518 219.403 499.933 491.732L1000 500H500V0z" id="a"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path d="M405.5 396a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 39a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 40a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 41a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 39a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm41-159a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 39a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 40a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 41a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 39a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm39-159a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 39a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 40a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 41a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 39a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z" fill="#0C5CE5" opacity=".1"/>
+    <use fill="#104378" xlink:href="#a"/>
+    <use fill="url(#b)" style="mix-blend-mode:soft-light" xlink:href="#a"/>
+    <path d="M405.5 396a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 39a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 40a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm41-40a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 40a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm39-79a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 39a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 40a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z" style="mix-blend-mode:soft-light" fill="#0C5CE5" opacity=".549"/>
+  </g>
+</svg>

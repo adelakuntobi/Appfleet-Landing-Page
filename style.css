@@ -1,0 +1,293 @@
+body{
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-image: radial-gradient(circle 839px at 50% 0,#fff 0,#fafdff 100%);
+}
+img{
+  border-radius: 15px;
+  max-width: 100%;
+}
+:root{
+  --first: #f0f8fd;
+  --second: #a3e1fe;
+  --third: #60c9ff;
+  --fourth: #020921;
+  --fifth: #a7acb9;
+  --sixth: #172c5a;
+  --seven: #293fa5;
+  --eight: #529fd7;
+}
+
+/*Navigation Bar*/
+nav{
+  display: flex;
+  padding: 20px 8%;
+  position: relative;
+  z-index: 200;
+}
+nav img{
+  margin: auto 0;
+}
+nav ul{
+  padding: 0;
+  margin: auto 0 auto auto;
+  display: flex;
+}
+nav ul li,button{
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  padding: 14px 20px;
+  border-radius: 10px;
+  border-width: 0;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: .2px;
+}
+#sign-up{
+  background-color: #eaf6ff;
+  color: #008df6;
+}
+
+/*Header*/
+header,main{
+  padding: 0 8%;
+}
+.landing{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.landing img{
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+.landing .text{
+  max-width: 50%;
+  padding: 0 10% 0 0;
+  margin: auto;
+}
+.landing .image{
+  max-width: 40%;
+  height: 350px;
+  position: relative;
+  float: right;
+}
+#started{
+  color: #fff;
+  background-image: linear-gradient(90deg,#0c5ce5,#0853d3);
+}
+#view{
+  color: #008df6;
+  background-color: #fff;
+  box-shadow: 0 15px 15px rgba(0,153,255,.05);
+}
+#bg-pattern{
+  position: absolute;
+  height: 120%;
+  top: -10%;
+  left: 120px;
+  margin-bottom: 0;
+  z-index: -1;
+  width: unset;
+}
+
+/*Each Box*/
+.content1{
+  display: flex;
+  padding: 5% 7%;
+}
+.marg{
+  margin: 0 8%;
+}
+.marg section:first-child{
+  margin-top: 10%;
+}
+.content1 section{
+  width: 50%;
+  padding: 3%;
+}
+#mar-bot{
+  margin-bottom: 50px;
+}
+.boxes{
+  display: inline-block;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,153,255,.05);
+  padding: 40px 35px 42px 50px;
+  border: 0;
+  margin-bottom: 30px;
+}
+
+/*Main*/
+.main1,.main4{
+  text-align: center;
+  padding: 5%;
+}
+.main1 img{
+  width: 100%;
+  height: auto;
+}
+.main2{
+  display: flex;
+}
+.main2 div,.main3 div{
+  margin: auto;
+}
+.main2 section{
+  display: flex;
+}
+.main2 p{
+  line-height: 3;
+}
+.main2 span{
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #fff;
+  color: #008df6;
+  box-shadow: 0 15px 15px rgba(0,153,255,.05);
+}
+
+.main3{
+  margin: 0 6% 70px;
+  background-image: radial-gradient(circle,#06154e,#04103d);
+  box-shadow: none;
+  padding: 75px 7% 0;
+  color: white;
+  border-radius: 16px;
+  display: flex;
+  position: relative;
+}
+.main3 img{
+  width: 40%;
+  border-radius: 0;
+  margin: 20px 0
+}
+
+.feature,.map{
+  margin: 0 8%;
+  text-align: center;
+}
+.feature section{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.feature section div{ 
+  background-color: inherit;
+}
+.map img{
+  opacity: 0.8;
+  width: 100%;
+}
+
+
+
+
+/*Footer*/
+footer{
+  margin: 0 8%;
+  font-weight: 700;
+}
+footer ul{
+  padding: 0;
+}
+footer li{
+  line-height: 2;
+  list-style: none;
+  font-size: 18px;
+  color: var(--fifth);
+}
+footer i{
+  margin-right: 10px;
+  color: blue;
+}
+footer div:first-child{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.bottom{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 50px;
+}
+.bottom p {
+  margin: auto;
+}
+.bottom ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.bottom ul li{
+  margin: 10px;
+  padding: 0 10px;
+  list-style: disc;
+}
+.bottom ul li:first-child{
+  list-style: none;
+}
+
+
+@media screen and (max-width: 700px){
+  body{
+    text-align: center;
+  }
+  nav{
+    display: block;
+  }
+  nav ul li, button{
+    margin: 10px auto
+  }
+
+
+
+  .landing,.content1{
+    display: block;
+  }
+
+  .landing .image,.landing .text{
+    float: none;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .boxes{
+    padding: 11% 12%;
+  }
+
+  .content1 section{
+    width: 100%;
+  }
+
+  /*Main*/
+  .main2{
+    flex-wrap: wrap;
+  }
+  .main2 div{
+    margin: 14%;
+  }
+  .main3{
+    padding: 7%;
+  }
+  .main3 img,.displayNone{
+    display: none;
+  }
+  /*Footer*/
+  footer div:first-child {
+    display: block;
+  }
+  .bottom{
+    grid-template-columns: auto;
+    grid-gap: 10px;
+  }
+}
