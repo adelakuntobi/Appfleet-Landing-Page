@@ -8,6 +8,10 @@ body{
   line-height: 1.5;
   background-image: radial-gradient(circle 839px at 50% 0,#fff 0,#fafdff 100%);
 }
+.container{
+  max-width: 1440px;
+  margin: auto;
+}
 p{
   color: #545a76;
   font-size: 18px;
@@ -57,7 +61,7 @@ nav ul li,button{
   padding: 14px 20px;
   border-radius: 10px;
   border-width: 0;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   letter-spacing: .2px;
 }
